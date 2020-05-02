@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,7 +15,7 @@
 		DF56B31F245DAFC000AF402E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF56B31D245DAFC000AF402E /* Main.storyboard */; };
 		DF56B321245DAFC200AF402E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF56B320245DAFC200AF402E /* Assets.xcassets */; };
 		DF56B324245DAFC200AF402E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF56B322245DAFC200AF402E /* LaunchScreen.storyboard */; };
-		DF56B340245DB29700AF402E /* try_SnapshotTestCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56B33F245DB29700AF402E /* try_SnapshotTestCaseTests.swift */; };
+		DF56B34A245DB5EF00AF402E /* ViewControllerSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56B349245DB5EF00AF402E /* ViewControllerSnapshotTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DF56B347245DB4D400AF402E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF56B348245DB4F200AF402E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		099FCE880D19F03F66E0EFA5 /* Pods-try!SnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try!SnapshotTestCase.release.xcconfig"; path = "Target Support Files/Pods-try!SnapshotTestCase/Pods-try!SnapshotTestCase.release.xcconfig"; sourceTree = "<group>"; };
 		2B1DFA77818CA96EBF9EB314 /* Pods-try!SnapshotTestCaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try!SnapshotTestCaseTests.release.xcconfig"; path = "Target Support Files/Pods-try!SnapshotTestCaseTests/Pods-try!SnapshotTestCaseTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,8 +73,8 @@
 		DF56B32F245DB0BA00AF402E /* try!SnapshotTestCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "try!SnapshotTestCaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF56B333245DB0BA00AF402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF56B33D245DB29700AF402E /* try!SnapshotTestCaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "try!SnapshotTestCaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF56B33F245DB29700AF402E /* try_SnapshotTestCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = try_SnapshotTestCaseTests.swift; sourceTree = "<group>"; };
 		DF56B341245DB29700AF402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF56B349245DB5EF00AF402E /* ViewControllerSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSnapshotTests.swift; sourceTree = "<group>"; };
 		E976B7140FEF5C82D04339B8 /* Pods-try!SnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try!SnapshotTestCase.debug.xcconfig"; path = "Target Support Files/Pods-try!SnapshotTestCase/Pods-try!SnapshotTestCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,8 +172,8 @@
 		DF56B33E245DB29700AF402E /* try!SnapshotTestCaseTests */ = {
 			isa = PBXGroup;
 			children = (
-				DF56B33F245DB29700AF402E /* try_SnapshotTestCaseTests.swift */,
 				DF56B341245DB29700AF402E /* Info.plist */,
+				DF56B349245DB5EF00AF402E /* ViewControllerSnapshotTests.swift */,
 			);
 			path = "try!SnapshotTestCaseTests";
 			sourceTree = "<group>";
@@ -185,6 +206,7 @@
 				DF56B32B245DB0BA00AF402E /* Sources */,
 				DF56B32C245DB0BA00AF402E /* Frameworks */,
 				DF56B32D245DB0BA00AF402E /* Resources */,
+				DF56B347245DB4D400AF402E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -205,6 +227,7 @@
 				DF56B33A245DB29700AF402E /* Frameworks */,
 				DF56B33B245DB29700AF402E /* Resources */,
 				74234F2D19F6915DFAE164B1 /* [CP] Embed Pods Frameworks */,
+				DF56B348245DB4F200AF402E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -235,6 +258,7 @@
 					};
 					DF56B33C245DB29700AF402E = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 						TestTargetID = DF56B313245DAFC000AF402E;
 					};
 				};
@@ -372,7 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF56B340245DB29700AF402E /* try_SnapshotTestCaseTests.swift in Sources */,
+				DF56B34A245DB5EF00AF402E /* ViewControllerSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +630,7 @@
 			baseConfigurationReference = 9CE0C7FF8A1F4B9FF0022A26 /* Pods-try!SnapshotTestCaseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJV59UNN92;
 				INFOPLIST_FILE = "try!SnapshotTestCaseTests/Info.plist";
@@ -616,6 +641,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.werockstar.try-SnapshotTestCaseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/try!SnapshotTestCase.app/try!SnapshotTestCase";
@@ -627,6 +653,7 @@
 			baseConfigurationReference = 2B1DFA77818CA96EBF9EB314 /* Pods-try!SnapshotTestCaseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QJV59UNN92;
 				INFOPLIST_FILE = "try!SnapshotTestCaseTests/Info.plist";
