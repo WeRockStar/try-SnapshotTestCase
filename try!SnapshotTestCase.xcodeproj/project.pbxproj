@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BD761F0EDB5F5395A1647B5 /* Pods_try_SnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419EE792A02CE9EC3C43D7F5 /* Pods_try_SnapshotTestCase.framework */; };
 		DF56B318245DAFC000AF402E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56B317245DAFC000AF402E /* AppDelegate.swift */; };
 		DF56B31A245DAFC000AF402E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56B319245DAFC000AF402E /* SceneDelegate.swift */; };
 		DF56B31C245DAFC000AF402E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56B31B245DAFC000AF402E /* ViewController.swift */; };
@@ -15,7 +16,19 @@
 		DF56B324245DAFC200AF402E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF56B322245DAFC200AF402E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DF56B334245DB0BA00AF402E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF56B30C245DAFC000AF402E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF56B313245DAFC000AF402E;
+			remoteInfo = "try!SnapshotTestCase";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		099FCE880D19F03F66E0EFA5 /* Pods-try!SnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try!SnapshotTestCase.release.xcconfig"; path = "Target Support Files/Pods-try!SnapshotTestCase/Pods-try!SnapshotTestCase.release.xcconfig"; sourceTree = "<group>"; };
+		419EE792A02CE9EC3C43D7F5 /* Pods_try_SnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_try_SnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF56B314245DAFC000AF402E /* try!SnapshotTestCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "try!SnapshotTestCase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF56B317245DAFC000AF402E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF56B319245DAFC000AF402E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,10 +37,21 @@
 		DF56B320245DAFC200AF402E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF56B323245DAFC200AF402E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF56B325245DAFC200AF402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF56B32F245DB0BA00AF402E /* try!SnapshotTestCaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "try!SnapshotTestCaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF56B333245DB0BA00AF402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E976B7140FEF5C82D04339B8 /* Pods-try!SnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try!SnapshotTestCase.debug.xcconfig"; path = "Target Support Files/Pods-try!SnapshotTestCase/Pods-try!SnapshotTestCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DF56B311245DAFC000AF402E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD761F0EDB5F5395A1647B5 /* Pods_try_SnapshotTestCase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF56B32C245DB0BA00AF402E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B48B00D0CE3A78E22260A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				419EE792A02CE9EC3C43D7F5 /* Pods_try_SnapshotTestCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78BEC35B7FFE6E70B639E983 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E976B7140FEF5C82D04339B8 /* Pods-try!SnapshotTestCase.debug.xcconfig */,
+				099FCE880D19F03F66E0EFA5 /* Pods-try!SnapshotTestCase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF56B30B245DAFC000AF402E = {
 			isa = PBXGroup;
 			children = (
 				DF56B316245DAFC000AF402E /* try!SnapshotTestCase */,
+				DF56B330245DB0BA00AF402E /* try!SnapshotTestCaseUITests */,
 				DF56B315245DAFC000AF402E /* Products */,
+				78BEC35B7FFE6E70B639E983 /* Pods */,
+				3B48B00D0CE3A78E22260A74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				DF56B314245DAFC000AF402E /* try!SnapshotTestCase.app */,
+				DF56B32F245DB0BA00AF402E /* try!SnapshotTestCaseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +112,14 @@
 			path = "try!SnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		DF56B330245DB0BA00AF402E /* try!SnapshotTestCaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF56B333245DB0BA00AF402E /* Info.plist */,
+			);
+			path = "try!SnapshotTestCaseUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF56B328245DAFC200AF402E /* Build configuration list for PBXNativeTarget "try!SnapshotTestCase" */;
 			buildPhases = (
+				C993553CA7D353D762A286CE /* [CP] Check Pods Manifest.lock */,
 				DF56B310245DAFC000AF402E /* Sources */,
 				DF56B311245DAFC000AF402E /* Frameworks */,
 				DF56B312245DAFC000AF402E /* Resources */,
@@ -87,6 +141,24 @@
 			productReference = DF56B314245DAFC000AF402E /* try!SnapshotTestCase.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DF56B32E245DB0BA00AF402E /* try!SnapshotTestCaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF56B338245DB0BA00AF402E /* Build configuration list for PBXNativeTarget "try!SnapshotTestCaseUITests" */;
+			buildPhases = (
+				DF56B32B245DB0BA00AF402E /* Sources */,
+				DF56B32C245DB0BA00AF402E /* Frameworks */,
+				DF56B32D245DB0BA00AF402E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF56B335245DB0BA00AF402E /* PBXTargetDependency */,
+			);
+			name = "try!SnapshotTestCaseUITests";
+			productName = "try!SnapshotTestCaseUITests";
+			productReference = DF56B32F245DB0BA00AF402E /* try!SnapshotTestCaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +171,10 @@
 				TargetAttributes = {
 					DF56B313245DAFC000AF402E = {
 						CreatedOnToolsVersion = 11.4.1;
+					};
+					DF56B32E245DB0BA00AF402E = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DF56B313245DAFC000AF402E;
 					};
 				};
 			};
@@ -116,6 +192,7 @@
 			projectRoot = "";
 			targets = (
 				DF56B313245DAFC000AF402E /* try!SnapshotTestCase */,
+				DF56B32E245DB0BA00AF402E /* try!SnapshotTestCaseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +208,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF56B32D245DB0BA00AF402E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C993553CA7D353D762A286CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-try!SnapshotTestCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF56B310245DAFC000AF402E /* Sources */ = {
@@ -144,7 +253,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF56B32B245DB0BA00AF402E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF56B335245DB0BA00AF402E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF56B313245DAFC000AF402E /* try!SnapshotTestCase */;
+			targetProxy = DF56B334245DB0BA00AF402E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DF56B31D245DAFC000AF402E /* Main.storyboard */ = {
@@ -282,6 +406,7 @@
 		};
 		DF56B329245DAFC200AF402E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E976B7140FEF5C82D04339B8 /* Pods-try!SnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +425,7 @@
 		};
 		DF56B32A245DAFC200AF402E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099FCE880D19F03F66E0EFA5 /* Pods-try!SnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,6 +439,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF56B336245DB0BA00AF402E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJV59UNN92;
+				INFOPLIST_FILE = "try!SnapshotTestCaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.werockstar.try-SnapshotTestCaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "try!SnapshotTestCase";
+			};
+			name = Debug;
+		};
+		DF56B337245DB0BA00AF402E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJV59UNN92;
+				INFOPLIST_FILE = "try!SnapshotTestCaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.werockstar.try-SnapshotTestCaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "try!SnapshotTestCase";
 			};
 			name = Release;
 		};
@@ -333,6 +497,15 @@
 			buildConfigurations = (
 				DF56B329245DAFC200AF402E /* Debug */,
 				DF56B32A245DAFC200AF402E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF56B338245DB0BA00AF402E /* Build configuration list for PBXNativeTarget "try!SnapshotTestCaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF56B336245DB0BA00AF402E /* Debug */,
+				DF56B337245DB0BA00AF402E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
