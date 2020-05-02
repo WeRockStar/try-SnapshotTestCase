@@ -1,6 +1,0 @@
-framework module Pods_try_SnapshotTestCase {
-  umbrella header "Pods-try!SnapshotTestCase-umbrella.h"
-
-  export *
-  module * { export * }
-}
